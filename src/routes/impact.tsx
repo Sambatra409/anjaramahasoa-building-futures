@@ -32,7 +32,7 @@ function Impact() {
         </p>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          <article className="rounded-3xl p-8 text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+          <article className="rounded-3xl p-8 text-foreground" style={{ background: "var(--gradient-warm)" }}>
             <Award className="h-8 w-8" />
             <div className="mt-4 font-display text-5xl font-bold">100%</div>
             <p className="mt-2 font-medium">Taux de réussite au CEPE — malgré des conditions extrêmes.</p>

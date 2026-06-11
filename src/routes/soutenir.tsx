@@ -17,7 +17,7 @@ function Support() {
   return (
     <>
       <section className="container-page py-20">
-        <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Nous soutenir</span>
+        <span className="text-sm font-semibold uppercase tracking-wider text-primary">Nous soutenir</span>
         <h1 className="mt-2 font-display text-4xl md:text-5xl font-bold text-primary">
           Partenaires et bailleurs bienvenus
         </h1>
@@ -55,7 +55,7 @@ function Support() {
                 "Impact mesurable sur 111 élèves dès l'année scolaire en cours",
                 "Approche intégrée : éducation + WASH + énergie",
               ].map((t) => (
-                <li key={t} className="flex items-start gap-3"><CheckCircle2 className="h-5 w-5 text-accent-orange mt-0.5 shrink-0" /> <span className="text-foreground">{t}</span></li>
+                <li key={t} className="flex items-start gap-3"><CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" /> <span className="text-foreground">{t}</span></li>
               ))}
             </ul>
           </div>
