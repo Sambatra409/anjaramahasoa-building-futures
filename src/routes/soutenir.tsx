@@ -33,7 +33,7 @@ function Support() {
             { icon: Heart, title: "Dons & particuliers", text: "Soutien direct au programme et à son suivi communautaire." },
           ].map(({ icon: Icon, title, text }) => (
             <div key={title} className="rounded-3xl bg-card p-8 ring-1 ring-border shadow-sm">
-              <div className="grid h-12 w-12 place-items-center rounded-xl text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+              <div className="grid h-12 w-12 place-items-center rounded-xl text-foreground" style={{ background: "var(--gradient-warm)" }}>
                 <Icon className="h-6 w-6" />
               </div>
               <h2 className="mt-5 font-display text-xl font-bold text-primary">{title}</h2>
