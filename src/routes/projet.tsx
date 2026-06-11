@@ -113,14 +113,14 @@ function Project() {
       </section>
 
       <section className="container-page pb-20">
-        <div className="rounded-3xl p-10 text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+        <div className="rounded-3xl p-10 text-foreground" style={{ background: "var(--gradient-warm)" }}>
           <h2 className="font-display text-3xl font-bold">Téléchargez la proposition complète</h2>
-          <p className="mt-3 max-w-2xl text-white/90">Document détaillé : budget, calendrier, équipe et indicateurs de suivi.</p>
+          <p className="mt-3 max-w-2xl text-foreground/80">Document détaillé : budget, calendrier, équipe et indicateurs de suivi.</p>
           <div className="mt-6 flex flex-wrap gap-4">
             <a href="#" className="inline-flex items-center gap-2 rounded-full bg-white text-primary px-7 py-3 font-semibold shadow hover:shadow-lg transition">
               <Download className="h-4 w-4" /> Télécharger (PDF)
             </a>
-            <Link to="/soutenir" className="inline-flex items-center gap-2 rounded-full border-2 border-white px-7 py-3 font-semibold text-white hover:bg-white/10 transition">
+            <Link to="/soutenir" className="inline-flex items-center gap-2 rounded-full border-2 border-foreground px-7 py-3 font-semibold text-foreground hover:bg-foreground/10 transition">
               Soutenir le projet <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

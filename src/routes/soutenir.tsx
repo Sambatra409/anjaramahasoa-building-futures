@@ -59,9 +59,9 @@ function Support() {
               ))}
             </ul>
           </div>
-          <div className="rounded-3xl p-10 text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+          <div className="rounded-3xl p-10 text-foreground" style={{ background: "var(--gradient-warm)" }}>
             <h3 className="font-display text-2xl font-bold">Proposition complète</h3>
-            <p className="mt-3 text-white/90">Document détaillé : contexte, budget, calendrier, suivi.</p>
+            <p className="mt-3 text-foreground/80">Document détaillé : contexte, budget, calendrier, suivi.</p>
             <a href="#" className="mt-6 inline-flex items-center gap-2 rounded-full bg-white text-primary px-7 py-3 font-semibold shadow hover:shadow-lg transition">
               <Download className="h-4 w-4" /> Télécharger le PDF
             </a>
