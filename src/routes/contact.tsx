@@ -52,7 +52,7 @@ function Contact() {
         >
           {sent ? (
             <div className="text-center py-8">
-              <div className="mx-auto grid h-14 w-14 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+              <div className="mx-auto grid h-14 w-14 place-items-center rounded-full text-foreground" style={{ background: "var(--gradient-warm)" }}>
                 <Send className="h-6 w-6" />
               </div>
               <h2 className="mt-4 font-display text-2xl font-bold text-primary">Merci pour votre message</h2>
