@@ -25,14 +25,14 @@ function Impact() {
   return (
     <>
       <section className="container-page py-20">
-        <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Impact</span>
+        <span className="text-sm font-semibold uppercase tracking-wider text-primary">Impact</span>
         <h1 className="mt-2 font-display text-4xl md:text-5xl font-bold text-primary">Résultats, besoins, approche</h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           Des indicateurs concrets et une lecture honnête de ce qu'il reste à accomplir.
         </p>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          <article className="rounded-3xl p-8 text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+          <article className="rounded-3xl p-8 text-foreground" style={{ background: "var(--gradient-warm)" }}>
             <Award className="h-8 w-8" />
             <div className="mt-4 font-display text-5xl font-bold">100%</div>
             <p className="mt-2 font-medium">Taux de réussite au CEPE — malgré des conditions extrêmes.</p>

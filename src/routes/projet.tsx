@@ -45,7 +45,7 @@ function Project() {
           ].map(({ icon: Icon, label, value }) => (
             <div key={label} className="rounded-2xl border border-border bg-card p-6">
               <div className="grid h-11 w-11 place-items-center rounded-lg bg-secondary text-primary"><Icon className="h-5 w-5" /></div>
-              <div className="mt-4 text-xs font-semibold uppercase tracking-wider text-accent-orange">{label}</div>
+              <div className="mt-4 text-xs font-semibold uppercase tracking-wider text-primary">{label}</div>
               <p className="mt-1 text-foreground leading-relaxed">{value}</p>
             </div>
           ))}
@@ -64,7 +64,7 @@ function Project() {
             <article key={c.title} className="grid grid-cols-[minmax(0,1fr)] sm:grid-cols-[180px_minmax(0,1fr)] gap-5 rounded-3xl bg-card p-5 ring-1 ring-border">
               <img src={c.img} alt="" className="h-44 sm:h-full w-full object-cover rounded-2xl" loading="lazy" width={1200} height={900} />
               <div className="min-w-0">
-                <div className="flex items-center gap-2 text-accent-orange">
+                <div className="flex items-center gap-2 text-primary">
                   <c.icon className="h-5 w-5" />
                   <span className="text-xs font-semibold uppercase tracking-wider">Composante</span>
                 </div>
@@ -113,14 +113,14 @@ function Project() {
       </section>
 
       <section className="container-page pb-20">
-        <div className="rounded-3xl p-10 text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+        <div className="rounded-3xl p-10 text-foreground" style={{ background: "var(--gradient-warm)" }}>
           <h2 className="font-display text-3xl font-bold">Téléchargez la proposition complète</h2>
-          <p className="mt-3 max-w-2xl text-white/90">Document détaillé : budget, calendrier, équipe et indicateurs de suivi.</p>
+          <p className="mt-3 max-w-2xl text-foreground/80">Document détaillé : budget, calendrier, équipe et indicateurs de suivi.</p>
           <div className="mt-6 flex flex-wrap gap-4">
             <a href="#" className="inline-flex items-center gap-2 rounded-full bg-white text-primary px-7 py-3 font-semibold shadow hover:shadow-lg transition">
               <Download className="h-4 w-4" /> Télécharger (PDF)
             </a>
-            <Link to="/soutenir" className="inline-flex items-center gap-2 rounded-full border-2 border-white px-7 py-3 font-semibold text-white hover:bg-white/10 transition">
+            <Link to="/soutenir" className="inline-flex items-center gap-2 rounded-full border-2 border-foreground px-7 py-3 font-semibold text-foreground hover:bg-foreground/10 transition">
               Soutenir le projet <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

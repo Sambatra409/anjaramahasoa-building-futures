@@ -19,7 +19,7 @@ function Contact() {
 
   return (
     <section className="container-page py-20">
-      <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Contact</span>
+      <span className="text-sm font-semibold uppercase tracking-wider text-primary">Contact</span>
       <h1 className="mt-2 font-display text-4xl md:text-5xl font-bold text-primary">Échangeons</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
         Partenaires et bailleurs bienvenus. Écrivez-nous pour échanger sur le projet ou organiser une visite.
@@ -35,7 +35,7 @@ function Contact() {
             <div key={label} className="flex items-start gap-4 rounded-2xl bg-card p-5 ring-1 ring-border">
               <div className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-secondary text-primary"><Icon className="h-5 w-5" /></div>
               <div className="min-w-0">
-                <div className="text-xs font-semibold uppercase tracking-wider text-accent-orange">{label}</div>
+                <div className="text-xs font-semibold uppercase tracking-wider text-primary">{label}</div>
                 <div className="mt-1 break-words text-foreground">{value}</div>
               </div>
             </div>
@@ -52,7 +52,7 @@ function Contact() {
         >
           {sent ? (
             <div className="text-center py-8">
-              <div className="mx-auto grid h-14 w-14 place-items-center rounded-full text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+              <div className="mx-auto grid h-14 w-14 place-items-center rounded-full text-foreground" style={{ background: "var(--gradient-warm)" }}>
                 <Send className="h-6 w-6" />
               </div>
               <h2 className="mt-4 font-display text-2xl font-bold text-primary">Merci pour votre message</h2>
@@ -103,7 +103,7 @@ function Contact() {
 function Field({ label, name, type = "text", required = false }: { label: string; name: string; type?: string; required?: boolean }) {
   return (
     <div>
-      <label htmlFor={name} className="text-sm font-semibold text-primary">{label}{required && <span className="text-accent-orange"> *</span>}</label>
+      <label htmlFor={name} className="text-sm font-semibold text-primary">{label}{required && <span className="text-destructive"> *</span>}</label>
       <input
         id={name}
         name={name}

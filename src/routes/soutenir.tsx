@@ -17,7 +17,7 @@ function Support() {
   return (
     <>
       <section className="container-page py-20">
-        <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Nous soutenir</span>
+        <span className="text-sm font-semibold uppercase tracking-wider text-primary">Nous soutenir</span>
         <h1 className="mt-2 font-display text-4xl md:text-5xl font-bold text-primary">
           Partenaires et bailleurs bienvenus
         </h1>
@@ -33,7 +33,7 @@ function Support() {
             { icon: Heart, title: "Dons & particuliers", text: "Soutien direct au programme et à son suivi communautaire." },
           ].map(({ icon: Icon, title, text }) => (
             <div key={title} className="rounded-3xl bg-card p-8 ring-1 ring-border shadow-sm">
-              <div className="grid h-12 w-12 place-items-center rounded-xl text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+              <div className="grid h-12 w-12 place-items-center rounded-xl text-foreground" style={{ background: "var(--gradient-warm)" }}>
                 <Icon className="h-6 w-6" />
               </div>
               <h2 className="mt-5 font-display text-xl font-bold text-primary">{title}</h2>
@@ -55,13 +55,13 @@ function Support() {
                 "Impact mesurable sur 111 élèves dès l'année scolaire en cours",
                 "Approche intégrée : éducation + WASH + énergie",
               ].map((t) => (
-                <li key={t} className="flex items-start gap-3"><CheckCircle2 className="h-5 w-5 text-accent-orange mt-0.5 shrink-0" /> <span className="text-foreground">{t}</span></li>
+                <li key={t} className="flex items-start gap-3"><CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" /> <span className="text-foreground">{t}</span></li>
               ))}
             </ul>
           </div>
-          <div className="rounded-3xl p-10 text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+          <div className="rounded-3xl p-10 text-foreground" style={{ background: "var(--gradient-warm)" }}>
             <h3 className="font-display text-2xl font-bold">Proposition complète</h3>
-            <p className="mt-3 text-white/90">Document détaillé : contexte, budget, calendrier, suivi.</p>
+            <p className="mt-3 text-foreground/80">Document détaillé : contexte, budget, calendrier, suivi.</p>
             <a href="#" className="mt-6 inline-flex items-center gap-2 rounded-full bg-white text-primary px-7 py-3 font-semibold shadow hover:shadow-lg transition">
               <Download className="h-4 w-4" /> Télécharger le PDF
             </a>

@@ -23,11 +23,11 @@ export function Footer() {
         <div>
           <h4 className="font-display text-base font-semibold mb-3">Navigation</h4>
           <ul className="space-y-2 text-sm text-primary-foreground/80">
-            <li><Link to="/qui-sommes-nous" className="hover:text-accent">Qui sommes-nous</Link></li>
-            <li><Link to="/projet" className="hover:text-accent">Projet prioritaire</Link></li>
-            <li><Link to="/impact" className="hover:text-accent">Impact</Link></li>
-            <li><Link to="/soutenir" className="hover:text-accent">Nous soutenir</Link></li>
-            <li><Link to="/contact" className="hover:text-accent">Contact</Link></li>
+            <li><Link to="/qui-sommes-nous" className="hover:text-primary-foreground">Qui sommes-nous</Link></li>
+            <li><Link to="/projet" className="hover:text-primary-foreground">Projet prioritaire</Link></li>
+            <li><Link to="/impact" className="hover:text-primary-foreground">Impact</Link></li>
+            <li><Link to="/soutenir" className="hover:text-primary-foreground">Nous soutenir</Link></li>
+            <li><Link to="/contact" className="hover:text-primary-foreground">Contact</Link></li>
           </ul>
         </div>
 

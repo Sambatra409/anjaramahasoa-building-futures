@@ -58,7 +58,7 @@ function About() {
             { icon: Handshake, title: "Méthode", text: "Co-construction avec les FAF, les parents et les autorités." },
           ].map(({ icon: Icon, title, text }) => (
             <div key={title} className="rounded-2xl bg-card p-6 shadow-sm">
-              <div className="grid h-12 w-12 place-items-center rounded-xl text-primary-foreground" style={{ background: "var(--gradient-warm)" }}>
+              <div className="grid h-12 w-12 place-items-center rounded-xl text-foreground" style={{ background: "var(--gradient-warm)" }}>
                 <Icon className="h-6 w-6" />
               </div>
               <h3 className="mt-4 font-display text-xl font-bold text-primary">{title}</h3>
