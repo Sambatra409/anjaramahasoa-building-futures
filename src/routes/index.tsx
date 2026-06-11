@@ -74,7 +74,7 @@ function Home() {
       <section className="container-page py-20">
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div>
-            <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Notre mission</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-primary">Notre mission</span>
             <h2 className="mt-3 font-display text-3xl md:text-4xl font-bold text-primary">
               Améliorer durablement la vie en milieu rural
             </h2>
@@ -112,7 +112,7 @@ function Home() {
       <section className="bg-gradient-to-b from-cream to-beige">
         <div className="container-page py-20">
           <div className="max-w-3xl">
-            <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Projet prioritaire</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-primary">Projet prioritaire</span>
             <h2 className="mt-3 font-display text-3xl md:text-4xl font-bold text-primary">
               Éducation inclusive et durable à Ambatofahavalo
             </h2>

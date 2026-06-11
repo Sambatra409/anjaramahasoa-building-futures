@@ -45,7 +45,7 @@ function Project() {
           ].map(({ icon: Icon, label, value }) => (
             <div key={label} className="rounded-2xl border border-border bg-card p-6">
               <div className="grid h-11 w-11 place-items-center rounded-lg bg-secondary text-primary"><Icon className="h-5 w-5" /></div>
-              <div className="mt-4 text-xs font-semibold uppercase tracking-wider text-accent-orange">{label}</div>
+              <div className="mt-4 text-xs font-semibold uppercase tracking-wider text-primary">{label}</div>
               <p className="mt-1 text-foreground leading-relaxed">{value}</p>
             </div>
           ))}
@@ -64,7 +64,7 @@ function Project() {
             <article key={c.title} className="grid grid-cols-[minmax(0,1fr)] sm:grid-cols-[180px_minmax(0,1fr)] gap-5 rounded-3xl bg-card p-5 ring-1 ring-border">
               <img src={c.img} alt="" className="h-44 sm:h-full w-full object-cover rounded-2xl" loading="lazy" width={1200} height={900} />
               <div className="min-w-0">
-                <div className="flex items-center gap-2 text-accent-orange">
+                <div className="flex items-center gap-2 text-primary">
                   <c.icon className="h-5 w-5" />
                   <span className="text-xs font-semibold uppercase tracking-wider">Composante</span>
                 </div>

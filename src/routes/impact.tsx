@@ -25,7 +25,7 @@ function Impact() {
   return (
     <>
       <section className="container-page py-20">
-        <span className="text-sm font-semibold uppercase tracking-wider text-accent-orange">Impact</span>
+        <span className="text-sm font-semibold uppercase tracking-wider text-primary">Impact</span>
         <h1 className="mt-2 font-display text-4xl md:text-5xl font-bold text-primary">Résultats, besoins, approche</h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
           Des indicateurs concrets et une lecture honnête de ce qu'il reste à accomplir.
